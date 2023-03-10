@@ -1,0 +1,37 @@
+:root{
+    --nr-bg-dark-blue:#083b4c;
+    --nr-card-number-color: #1389b2;
+    --nr-card-fizz-color: #0cd6a1;
+    --nr-card-buzz-color: #ffd166;
+    --nr-card-fizzbuzz-color: #f0466f;
+}
+
+body{
+    background-color: var(--nr-bg-dark-blue);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 6rem;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-number{
+    background-color: var(--nr-card-number-color);
+}
+.square-fizz{
+    background-color: var(--nr-card-fizz-color);
+}
+.square-buzz{
+    background-color: var(--nr-card-buzz-color);
+}
+.square-fizzbuzz{
+    background-color: var(--nr-card-fizzbuzz-color);
+}
