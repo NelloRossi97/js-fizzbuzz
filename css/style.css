@@ -35,3 +35,9 @@ h1{
 .square-fizzbuzz{
     background-color: var(--nr-card-fizzbuzz-color);
 }
+
+@media screen and (max-width: 768px){
+    h1{
+        font-size: 3rem;
+    }
+}
