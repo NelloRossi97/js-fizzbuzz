@@ -33,6 +33,12 @@ h1{
 .square-fizz{
     background-color: var(--nr-card-fizz-color);
 }
+.square-fizz:hover{
+    background-color: var(--nr-bg-dark-blue);
+    color: var(--nr-bg-dark-blue);
+    cursor: help;
+    transition: 0.5s;
+}
 .square-buzz{
     background-color: var(--nr-card-buzz-color);
 }
@@ -43,6 +49,13 @@ h1{
 }
 .square-fizzbuzz{
     background-color: var(--nr-card-fizzbuzz-color);
+}
+.square-fizzbuzz:hover{
+    animation: shake 0.5s;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 @media screen and (max-width: 768px){
