@@ -15,17 +15,21 @@ h1{
     font-size: 6rem;
 }
 
+
 .square{
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 .square-number{
     background-color: var(--nr-card-number-color);
+    font-size: 2rem;
 }
+
 .square-fizz{
     background-color: var(--nr-card-fizz-color);
 }
