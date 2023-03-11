@@ -9,7 +9,7 @@ const btnPlay = document.getElementById('btnPlay');
 
 btnPlay.addEventListener('click', function (){
     for (let i = 1; i <= 100; i++ ){
-    if ((i % 3 === 0) && (i % 5 === 0)){
+    if (i % 15 === 0){
         const fizzbuzz = document.getElementById('single-card').innerHTML +=
         `
         <div class="square square-fizzbuzz fw-bold">fizzbuzz</div>
